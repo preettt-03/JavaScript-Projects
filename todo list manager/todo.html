@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="wrap">
+            <section class="heading">
+                <p class="title">ToDo List Manager</p>
+                <p class="subtitle">Manage and Search Your Pending Tasks In Ckicks</p>
+            </section>
+        <section class="task-manager">
+            <div class="search-box">
+                <form  class="search">
+                    <input type="text" name="task" placeholder="Search Task" autocomplete="off">
+                    <i class="bi bi-x-circle reset"></i>
+                </form>
+            </div>
+            <div class="task-box">
+                <ul class="tasks">
+                    <li>
+                        <span>DSA</span>
+                        <i class="bi bi-trash3 delete"></i>
+                    </li>
+                    <li>
+                        <span>React</span>
+                        <i class="bi bi-trash3 delete"></i>
+                    </li>
+                    <li>
+                        <span>Java</span>
+                        <i class="bi bi-trash3 delete"></i>
+                    </li>
+                </ul>  
+                <form  class="add">
+                    <input type="text" name="task" placeholder="add task" autocomplete="off">
+                    <input type="submit" value="add">
+                </form>
+            </div>
+            <div class="message">
+                <span></span>
+                <button class="clear">Clear all</button>
+            </div>
+        </section>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
